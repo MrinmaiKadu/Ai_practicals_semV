@@ -1,5 +1,6 @@
 import random
-def obj_fn(x):return -x**2  
+def obj_fn(x):
+    return -x**2  
 
 def h_c(max_it, step_size, x):
     for _ in range(max_it):
